@@ -7,14 +7,14 @@ require './lib/polyglot/version'
 Jeweler::Tasks.new do |gem|
   gem.name = "polyglot"
   gem.version = Polyglot::VERSION::STRING
-  gem.homepage = "http://github.com/cjheath/polyglot"
+  gem.homepage = "http://github.com/IBazylchuk/polyglot"
   gem.license = "MIT"
   gem.summary = %Q{Augment 'require' to load non-Ruby file types}
   gem.description = %Q{
 The Polyglot library allows a Ruby module to register a loader
 for the file type associated with a filename extension, and it
 augments 'require' to find and load matching files.}
-  gem.email = %w[clifford.heath@gmail.com]
+  gem.email = %w[ilya.bazylchuk@gmail.com]
   gem.authors = ["Clifford Heath"]
   gem.files.exclude "website/**/*.*", "script/*"
 end
